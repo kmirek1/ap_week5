@@ -60,16 +60,28 @@ print(split_motto)
 # Modify the sentence: 
 sentence =  "Life is what happens when you are busy making other plans."
 # a. Replace "busy" with "distracted".
-
+new_sentence = sentence.replace("busy","distracted")
+print(new_sentence)
 # b. Replace "plans" with "mistakes".
+new_sentence2= sentence.replace("plans","mistakes")
+print(new_sentence2)
 
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
 # Concatenate the word "Iteration" 7 times.
+word_one = "Interation"
+result = word_one * 7 
+print(result)
 
 # Word Search:
-# Check if the word "moonlight" appears in the quote: "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+# Check if the word "moonlight" appears in the quote: 
+quote4 = "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+if "moonlight" in quote4:
+  print("The word 'moonlight' appears in the quote.")
+else:
+  print("The word 'moonlight' does not appear in the quote.")
 
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
+
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
